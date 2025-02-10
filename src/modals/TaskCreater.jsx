@@ -40,7 +40,7 @@ const TaskCreator = ({modal,toggle,save}) => {
               
             </ModalBody>
             <ModalFooter>
-                <Button className="createBtn" onClick={toggle} onClick={saveTask}>Create</Button>{' '}
+                <Button className="createBtn" onClick={saveTask}>Create</Button>{' '}
                 <Button className="cancelBtn" onClick={toggle}>Cancel</Button>
             </ModalFooter>
         </Modal>
